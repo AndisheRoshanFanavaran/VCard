@@ -13,7 +13,7 @@
     <!-- page content -->
     <div class="flex flex-col w-full items-center h-5/6">
       <div class="relative flex flex-col w-11/12 rounded-lg h-full overflow-clip">
-        <NuxtImg class="absolute top-0 left-0 w-full h-full object-cover" src="/Images/software.webp"
+        <img class="absolute top-0 left-0 w-full h-full object-cover" src="/Images/software.webp"
           alt="software engineer" />
         <div class="flex flex-col gap-1 backdrop-blur-[1px] w-full h-full bg-base-300/40 z-10 px-5 py-6 md:py-8 md:px-7">
           <p class="text-justify">
