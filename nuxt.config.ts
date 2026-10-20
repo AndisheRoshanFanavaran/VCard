@@ -15,8 +15,8 @@ export default defineNuxtConfig({
     modules: ['@nuxt/image', "nuxt-schema-org"],
     css: ['~/assets/css/main.css'],
     site: {
-        url: process.env.WEBSITE,
-        name: process.env.APP_NAME
+        url: process.env.NUXT_WEBSITE,
+        name: process.env.NUXT_APP_NAME
     },
     app: {
         head: {
@@ -45,7 +45,7 @@ export default defineNuxtConfig({
                 },
                 {
                     name: 'google-site-verification',
-                    content: process.env.GOOGLE_SITE_VERIFICATION
+                    content: process.env.NUXT_GOOGLE_SITE_VERIFICATION
                 }
             ]
         },
@@ -55,12 +55,12 @@ export default defineNuxtConfig({
     },
     runtimeConfig: {
         public: {
-            SITE_URL: process.env.WEBSITE,
-            APP_NAME: process.env.APP_NAME,
-            USER_NAME: process.env.USER_NAME,
-            GITHUB: process.env.GITHUB,
-            TELEGRAM: process.env.TELEGRAM,
-            EMAIL: process.env.EMAIL
+            SITE_URL: process.env.NUXT_WEBSITE,
+            APP_NAME: process.env.NUXT_APP_NAME,
+            USER_NAME: process.env.NUXT_USER_NAME,
+            GITHUB: process.env.NUXT_GITHUB,
+            TELEGRAM: process.env.NUXT_TELEGRAM,
+            EMAIL: process.env.NUXT_EMAIL
         }
     }
 })

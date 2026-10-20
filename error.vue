@@ -12,7 +12,7 @@
             <h1 class="text-2xl sm:text-3xl text-primary font-bold">
               {{ error.statusCode === 404 ? 'PAGE NOT FOUND' : 'AN ERROR OCCURRED' }}
             </h1>
-            <p class="text-xs sm:text-sm text-base-content/70 lowercase normal-case">
+            <p class="text-xs sm:text-sm text-base-content/70 lowercase">
               {{ error.message || 'The requested transmission could not be processed.' }}
             </p>
           </div>
