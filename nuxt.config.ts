@@ -23,7 +23,7 @@ export default defineNuxtConfig({
             htmlAttrs: {
                 lang: "en"
             },
-            title: "Noorani-mm",
+            title: "Mohammad Mahdi Noorani | Personal website",
             meta: [
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' },
                 {
@@ -55,6 +55,7 @@ export default defineNuxtConfig({
     },
     runtimeConfig: {
         public: {
+            SITE_URL: process.env.WEBSITE,
             APP_NAME: process.env.APP_NAME,
             USER_NAME: process.env.USER_NAME,
             GITHUB: process.env.GITHUB,

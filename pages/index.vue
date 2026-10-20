@@ -13,9 +13,9 @@
     <!-- page content -->
     <div class="flex flex-col w-full items-center h-5/6">
       <div class="relative flex flex-col w-11/12 rounded-lg h-full overflow-clip">
-        <NuxtImg class="absolute top-0 left-0 w-full h-full object-cover" src="/Images/software.jpg"
+        <NuxtImg class="absolute top-0 left-0 w-full h-full object-cover" src="/Images/software.webp"
           alt="software engineer" />
-        <div class="flex flex-col gap-1 w-full h-full bg-base-200/40 z-10 px-5 py-6 md:py-8 md:px-7">
+        <div class="flex flex-col gap-1 backdrop-blur-[1px] w-full h-full bg-base-300/40 z-10 px-5 py-6 md:py-8 md:px-7">
           <p class="text-justify">
             &nbsp; Hello, I am Mohammad Mahdi Noorani, I'm from Iran and I'm a full-stack developer. I started coding in
             2018. My career started
@@ -39,22 +39,4 @@ useSchemaOrg([
     name: useRuntimeConfig().public.APP_NAME
   })
 ])
-useHead({
-  meta: [
-    {
-      name: "keywords",
-      content: "Mohammad Mahdi, Noorani, محمد مهدی, نورانی, محمد مهدی نورانی, developer, توسعه‌دهنده"
-    },
-    {
-      name: "title",
-      property: "og:title",
-      content: "Mohammad Mahdi Noorani",
-    },
-    {
-      name: "description",
-      property: "og:description",
-      content: "There you can know about Mohammad Mahdi Noorani",
-    },
-  ],
-});
 </script>

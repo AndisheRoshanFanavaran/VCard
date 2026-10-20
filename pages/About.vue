@@ -11,9 +11,9 @@
     <!-- page content -->
     <div class="flex flex-col w-full items-center h-5/6">
       <div class="relative flex flex-col w-11/12 rounded-lg h-full overflow-clip">
-        <NuxtImg class="absolute top-0 left-0 w-full h-full object-cover" src="/Images/about.jpg"
+        <NuxtImg class="absolute top-0 left-0 w-full h-full object-cover" src="/Images/about.webp"
           alt="about me" />
-        <div class="flex flex-col gap-1 w-full h-full bg-base-200/40 z-10 px-5 py-6 md:py-8 md:px-7">
+        <div class="flex flex-col backdrop-blur-[1px] gap-1 w-full h-full bg-base-300/40 z-10 px-5 py-6 md:py-8 md:px-7">
           <p class="text-justify">
             &nbsp;I am energetic, creative, frank and love solving problems and new challenges.
           </p>
