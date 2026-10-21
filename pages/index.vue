@@ -22,7 +22,7 @@
             with C# and after 3 years I switched to PHP.
           </p>
           <p>
-            &nbsp;I have been using Laravel framework and writing API for almost 1 year now.
+            &nbsp;I have been using Laravel framework and writing API for almost {{ apiCodingTime() }} year now.
           </p>
         </div>
       </div>
@@ -39,4 +39,8 @@ useSchemaOrg([
     name: useRuntimeConfig().public.APP_NAME
   })
 ])
+
+const apiCodingTime = () => {
+  return new Date().getFullYear() - 2021
+}
 </script>
